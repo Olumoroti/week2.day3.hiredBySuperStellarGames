@@ -1,0 +1,155 @@
+html {
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    color: white;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+#logo {
+    display: flex;
+    width: 100%;
+    font-size: 500%;
+    justify-content: center;
+}
+
+#heading {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+#heading h2 {
+    margin-top: 0px;
+}
+
+.top {
+    background-image: linear-gradient(to right top, #041b3e, #6e2f68, #cf4661, #ff8d33, #e5eb12);
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+.topnav {
+    font-size: 200%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #e9e9e9;
+    padding: 0px;
+    color: black;
+}
+
+#about {
+    font-size: 150%;
+}
+
+#about p {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    /* align-self: center; */
+    align-self: center;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.navbar_link {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-justify: center;
+    justify-items: center;
+    color: black;
+    text-decoration: none;
+    /* margin: -1%; */
+
+}
+
+.navbar_link:hover {
+    background-color: goldenrod;
+    transition: 0.6676s ease;
+}
+
+.top input {
+    color: black;
+    padding: 5px;
+    width: 40%;
+    text-decoration: none;
+    font-size: 120%;
+    border: 2px solid black;
+}
+
+#about {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+ .game_container {
+    padding: 2%;
+    border: 1px solid orange;
+    border-radius: 1%;
+    margin: 2%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 50rem;
+
+} 
+
+.game_container.reversed {
+    flex-flow: row-reverse nowrap;
+}
+
+.description {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1%;
+    width: 50%;
+    font-size: 200%;
+}
+
+.game_container img {
+   padding: 10px; 
+   margin: 20px;
+   width: 50%;
+   height: 40%;
+   max-width: 25rem;
+   justify-content: center;
+
+
+}
+
+#games h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+@media screen and (max-width: 500) {
+
+    html {
+        background-color: black; 
+    }
+
+}
